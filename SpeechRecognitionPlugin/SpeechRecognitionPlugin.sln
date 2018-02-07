@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechRecognitionPlugin", "SpeechRecognitionPlugin.csproj", "{326C1068-0644-4619-86A7-48879F6FCE44}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Odx.Xrm.Core", "Odx.Xrm.Core\Odx.Xrm.Core.shproj", "{4D25F5E3-6BFF-4BCC-80BA-D4C3ED03A19E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Odx.Xrm.Core\Odx.Xrm.Core.projitems*{326c1068-0644-4619-86a7-48879f6fce44}*SharedItemsImports = 4
+		Odx.Xrm.Core\Odx.Xrm.Core.projitems*{4d25f5e3-6bff-4bcc-80ba-d4c3ed03a19e}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{326C1068-0644-4619-86A7-48879F6FCE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326C1068-0644-4619-86A7-48879F6FCE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326C1068-0644-4619-86A7-48879F6FCE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326C1068-0644-4619-86A7-48879F6FCE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFD340D7-9368-451E-9AEC-2DD0A57D0977}
+	EndGlobalSection
+EndGlobal
